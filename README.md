@@ -42,7 +42,7 @@ These insights help **schools improve teaching strategies & student outcomes**.
 
 ### ⭐ Average Score by Gender  
 Female students score higher overall 📈  
-![Gender Score](images/gender_avg_score.png)
+![Gender Score](images/gender_avg_score.png) (MIni project - 3.1.png)
 
 ---
 
