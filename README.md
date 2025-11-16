@@ -1,114 +1,172 @@
 # Student-Performance-EDA-Analysis
 Mini Project 3 | Student performance analysis using SQL &amp; Python EDA to understand the factors impacting exam success. 
 
-# 🎓 Student Performance EDA (SQL + Python)  
+# 🎓 Student Performance EDA (SQL + Python)
 
-This project analyzes student exam performance and identifies the key factors affecting academic success using **SQL** and **Python Exploratory Data Analysis (EDA)**.
-
----
-
-## 🔍 Business Objective  
-To understand **what factors influence student performance the most**, such as:  
-- Gender  
-- Lunch type (financial status indicator)  
-- Parental education  
-- Test preparation
-
-These insights help **schools improve teaching strategies & student outcomes**.
+This repository contains a complete **Student Performance Analysis** project using SQL for data querying and Python for exploratory data analysis (EDA).  
+The aim is to understand what factors influence student exam performance and provide actionable insights for education stakeholders.
 
 ---
 
-## 🛠 Tools & Technologies Used
-| Tool | Usage |
-|------|-------|
-| Python | Data Cleaning + Visual EDA |
-| Pandas / NumPy | Feature Engineering |
-| Seaborn / Matplotlib | Data Visualization |
-| MySQL | Analytical Queries |
-| GitHub | Version control & portfolio |
+## 🎯 Business Objective  
+To determine key drivers of student success by analysing:
+- Gender
+- Lunch type (indicates financial status)
+- Parental education level
+- Test preparation course completion  
+Insights help educational institutions to design interventions and support students effectively.
 
 ---
 
-## 📂 Files in Repository
-| File | Description |
-|------|-------------|
-| `Mini Project 3.sql` | SQL analysis queries |
-| `Mini_Project_3.ipynb` | Python EDA notebook |
-| `images/` | All plots & visual charts |
+## 🛠 Tools & Technologies  
+- **MySQL** – for SQL queries and data exploration  
+- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – for data cleaning, feature engineering and visualisation  
+- **Jupyter Notebook** – documentation & execution environment  
+- **GitHub** – version control and portfolio showcase
 
 ---
 
-## 📊 Key Visual Insights
+## 📂 Repository Structure  
+# 🎓 Student Performance EDA (SQL + Python)
 
-### ⭐ Average Score by Gender  
-Female students score higher overall 📈  
-![Gender Score](MIni project - 3.1)
+This repository contains a complete **Student Performance Analysis** project using SQL for data querying and Python for exploratory data analysis (EDA).  
+The aim is to understand what factors influence student exam performance and provide actionable insights for education stakeholders.
 
 ---
 
-### 🍽️ Lunch Type Impact on Scores  
-Students with **standard lunch** perform better — financial stability matters 💡  
+## 🎯 Business Objective  
+To determine key drivers of student success by analysing:
+- Gender
+- Lunch type (indicates financial status)
+- Parental education level
+- Test preparation course completion  
+Insights help educational institutions to design interventions and support students effectively.
+
+---
+
+## 🛠 Tools & Technologies  
+- **MySQL** – for SQL queries and data exploration  
+- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – for data cleaning, feature engineering and visualisation  
+- **Jupyter Notebook** – documentation & execution environment  
+- **GitHub** – version control and portfolio showcase
+
+---
+
+## 📂 Repository Structure  
+# 🎓 Student Performance EDA (SQL + Python)
+
+This repository contains a complete **Student Performance Analysis** project using SQL for data querying and Python for exploratory data analysis (EDA).  
+The aim is to understand what factors influence student exam performance and provide actionable insights for education stakeholders.
+
+---
+
+## 🎯 Business Objective  
+To determine key drivers of student success by analysing:
+- Gender
+- Lunch type (indicates financial status)
+- Parental education level
+- Test preparation course completion  
+Insights help educational institutions to design interventions and support students effectively.
+
+---
+
+## 🛠 Tools & Technologies  
+- **MySQL** – for SQL queries and data exploration  
+- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – for data cleaning, feature engineering and visualisation  
+- **Jupyter Notebook** – documentation & execution environment  
+- **GitHub** – version control and portfolio showcase
+
+---
+
+## 📂 Repository Structure  
+# 🎓 Student Performance EDA (SQL + Python)
+
+This repository contains a complete **Student Performance Analysis** project using SQL for data querying and Python for exploratory data analysis (EDA).  
+The aim is to understand what factors influence student exam performance and provide actionable insights for education stakeholders.
+
+---
+
+## 🎯 Business Objective  
+To determine key drivers of student success by analysing:
+- Gender
+- Lunch type (indicates financial status)
+- Parental education level
+- Test preparation course completion  
+Insights help educational institutions to design interventions and support students effectively.
+
+---
+
+## 🛠 Tools & Technologies  
+- **MySQL** – for SQL queries and data exploration  
+- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – for data cleaning, feature engineering and visualisation  
+- **Jupyter Notebook** – documentation & execution environment  
+- **GitHub** – version control and portfolio showcase
+
+---
+## 📂 Repository Structure  
+Student-Performance-EDA-Analysis/
+├── MiniProject3.sql ← SQL analysis queries
+├── Mini_Project_3.ipynb ← Python EDA notebook
+├── images/ ← folder with visualisations
+│ ├── gender_avg_score.png
+│ ├── lunch_subject_boxplot.png
+│ ├── testprep_bar.png
+│ ├── parent_education_bar.png
+│ ├── race_total_score.png
+│ ├── score_distribution.png
+│ └── score_heatmap.png
+└── README.md ← this file
+
+
+---
+
+## 📊 Key Visual Insights  
+### 1. Average Score by Gender  
+![Gender Score](images/gender_avg_score.png)
+
+### 2. Distribution of Scores by Lunch Type & Subject  
 ![Lunch Score](images/lunch_subject_boxplot.png)
 
----
-
-### 📘 Test Preparation Course Impact  
-Completing test prep → more students score **above median** 🎯  
+### 3. Test Preparation Course Impact  
 ![Test Prep Status](images/testprep_bar.png)
 
----
-
-### 🧑‍🎓 Parental Education vs Scores  
-Higher parental education → better understanding & support for kids 🏆  
+### 4. Parental Education vs Average Score  
 ![Parental Education](images/parent_education_bar.png)
 
----
-
-### 🌍 Race/Ethnicity Group Performance  
-Group E performs best, Group A lowest — may relate to socio-economic background  
+### 5. Average Total Score by Race/Ethnicity  
 ![Race Score](images/race_total_score.png)
 
----
-
-### 📈 Total Score Distribution  
-Most students score between **150–230**, normal distribution  
+### 6. Distribution of Total Scores  
 ![Distribution Total](images/score_distribution.png)
 
----
-
-### 🔥 Correlation of Subject Scores  
-Strong correlation — improvements in reading → writing score increases  
+### 7. Correlation Heatmap of Scores  
 ![Heatmap](images/score_heatmap.png)
 
 ---
 
-## 🧠 Summary of Insights  
-✔ Females perform better overall  
-✔ Standard lunch students outperform free/reduced lunch students  
-✔ Parental education has a clear positive effect on academic success  
-✔ Test preparation significantly improves results  
-✔ Subject scores highly correlated — students strong in reading are strong in writing too
+## 🔍 Summary of Insights  
+- Female students perform better on average compared to male students.  
+- Students having **standard lunch** type score higher than those with **free/reduced lunch**.  
+- Students whose parents have higher education levels tend to score better.  
+- Completing a test preparation course significantly improves performance.  
+- Student performance shows strong correlation between subjects (reading ↔ writing).  
 
 ---
 
 ## 🚀 Conclusion  
-Educational institutions can **increase student success** by:  
-✔ Providing more resources for financially weaker students  
-✔ Encouraging test preparation programs  
-✔ Engaging parents with lower education backgrounds  
-
-This project demonstrates **real-world education analytics** useful for schools & policy makers 🎯  
+This analysis provides actionable insights for schools and educators:
+- Provide additional support for students from financial-challenged backgrounds (free/reduced lunch).  
+- Promote and provide access to test preparation courses.  
+- Engage parents with lower education levels in student development programs.  
 
 ---
 
-## ✨ What I Learned  
-- EDA storytelling with visuals  
-- SQL business analytics  
-- Feature engineering  
-- Data-driven decision making  
-- GitHub project documentation
+## 🧠 What I Learned  
+- How to write and execute business-oriented SQL queries.  
+- How to perform data cleaning, feature engineering, and advanced visualisation with Python.  
+- How to tell a compelling data story through graphics and insights.  
+- How to structure a GitHub repository for portfolio and professional visibility.
 
 ---
 
-🔗 *If you like this project, please ⭐ the repository and follow for more!*  
-
+Feel free to ⭐ the repo if you found this project insightful!  
