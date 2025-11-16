@@ -124,6 +124,7 @@ Student-Performance-EDA-Analysis/
 ### 1. Average Score by Gender  
 ![Gender Score](images/gender_avg_score.png)
 
+
 ### 2. Distribution of Scores by Lunch Type & Subject  
 ![Lunch Score](images/lunch_subject_boxplot.png)
 
